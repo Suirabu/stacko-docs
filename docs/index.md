@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# Stacko Docs
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Official documentation for the [Stacko](https://github.com/Mercifle/Stacko) programming language.
 
-## Commands
+## New to Stacko?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Read the [Getting Started](getting-started.md) page.
 
-## Project layout
+## Want to Learn More?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Read the [Stack Manipulation](stack-manipulation.md) guide to better understand how Stacko programs are built.
+
+Read the [Keyword Reference](keywords.md) to see all of Stacko's built-in operations.
+
+## Want to Contribute?
+
+Check out the official [GitHub repository](https://github.com/Mercifle/Stacko).
+

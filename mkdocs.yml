@@ -1,1 +1,21 @@
 site_name: Stacko Docs
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Stack Manipulation: stack-manipulation.md
+  - Keyword Reference: keywords.md
+
+theme:
+  name: material
+  features:
+    - content.code.annotate 
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
