@@ -75,7 +75,7 @@ Open your newly created file and enter the following code.
 You can run this script using the following command.
 
 ```bash
-stacko HelloWorld.stko
+stacko HelloWorld.stacko
 ```
 
 Congratulations, you've just successfully written and ran your first Stacko script!

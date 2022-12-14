@@ -8,12 +8,12 @@ Recursive includes are automatically resolved by the Stacko interpreter.
 
 ## Example
 
-UserInfo.stko
+UserInfo.stacko
 ```py
 "John Doe" const userName
 ```
 
-Greeter.stko
+Greeter.stacko
 ```py
 fnn greet {
     "Hello " print
@@ -22,15 +22,15 @@ fnn greet {
 }
 ```
 
-Main.stko
+Main.stacko
 ```py
-file UserInfo.stko
-file Greeter.stko
+file UserInfo.stacko
+file Greeter.stacko
 
 userName greet
 ```
 
-Result (Main.stko)
+Result (Main.stacko)
 ```
 Hello John Doe!
 ```
