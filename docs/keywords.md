@@ -68,7 +68,7 @@ Text between square brackets (`[]`) is optional.
 
 | Name | Signature | Description |
 |------|-----------|-------------|
-| [`getElement`](keyword-examples/get-element.md) | `list index -- elem` | Returns the element from a list `list` at index `index`. |
+| [`getElement`](./keyword-examples/get-element.md) | `list index -- elem` | Returns the element from a list `list` at index `index`. |
 
 ## System Operations
 
@@ -93,12 +93,12 @@ Text between square brackets (`[]`) is optional.
 | Name | Signature | Description |
 |------|-----------|-------------|
 | `while {body}` | `a --` | Continually executes the instructions in `{body}` so long as `a` is true. |
-| [`fnn <name> {body}`](keyword-examples/function.md) | `--` | Creates a new function with the name `<name>`. |
+| [`fnn <name> {body}`](./keyword-examples/function.md) | `--` | Creates a new function with the name `<name>`. |
 | `if {body} [else {else-body}]` | `a --` | Conditionally executes the instructions in `{body}` if `a` is true, otherwise the instructions in `{else-body}` are executed. |
-| [`<name>`](keyword-examples/function.md) | Unknown | Executes instructions in the body (`{body}`) of a function with the name `<name>`. |
+| [`<name>`](./keyword-examples/function.md) | Unknown | Executes instructions in the body (`{body}`) of a function with the name `<name>`. |
 
 ## Meta Operations
 
 | Name | Signature | Description |
 |------|-----------|-------------|
-| [`file <file-path>`](keyword-examples/file.md) | `--` | Includes the contents of another Stacko file at `<file-path>`. |
+| [`file <file-path>`](./keyword-examples/file.md) | `--` | Includes the contents of another Stacko file at `<file-path>`. |
